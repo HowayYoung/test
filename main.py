@@ -7,7 +7,7 @@ API_KEY = 'AIzaSyAvl_NYfpWfKyE286UaTmULCxH_xotXpYE'
 API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent'
 
 # Streamlit页面设置
-st.title('Google Gemma API Mirror Site')
+st.title('小杨的第一个LLM部署')
 
 # 用户输入
 user_input = st.text_area("Enter text to generate content:", "Write a story about a magic backpack")
